@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 10, 2017, 9:45:16 PM
+    Author     : Nit
+*/
+
+$green: green;
+$bg-color: #2c3e50;
+$hover: #16a005;
+$hover: #009900;
+$text: #ffffff;
+
+h1 {
+    color: $green;
+}
+
+nav {
+    ul{
+        background: $bg-color;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li{
+        display: inline-block;
+    }
+    a{
+        color: $text;
+        display: inline-block;
+        padding: 10px 16px;
+        text-decoration: none;
+    }
+    a:hover{
+        background: $hover;
+    }
+}
+
