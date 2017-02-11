@@ -7,6 +7,21 @@ and open the template in the editor.
     Created on : Feb 10, 2017, 9:45:16 PM
     Author     : Nit
 */
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 11, 2017, 1:33:56 PM
+    Author     : nit
+*/
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  border: 5px solid seagreen; }
+
 h1 {
   color: green; }
 
@@ -24,5 +39,34 @@ nav a {
   text-decoration: none; }
 nav a:hover {
   background: #009900; }
+
+.panels, .panel, .little-panel, .big-panel {
+  background: dodgerblue;
+  border: 2px solidColor; }
+
+.panel {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 20px;
+  padding: 3px; }
+
+.little-panel {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  font-size: 10px;
+  padding: 5px; }
+
+.big-panel {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  font-size: 50px;
+  padding: 25px;
+  border-color: #63ce20; }
 
 /*# sourceMappingURL=main.css.map */

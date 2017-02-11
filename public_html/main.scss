@@ -7,12 +7,19 @@ and open the template in the editor.
     Created on : Feb 10, 2017, 9:45:16 PM
     Author     : Nit
 */
-
+@import "profile";
 $green: green;
 $bg-color: #2c3e50;
 $hover: #16a005;
 $hover: #009900;
 $text: #ffffff;
+
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
 
 h1 {
     color: $green;
@@ -39,3 +46,31 @@ nav {
     }
 }
 
+.panels{
+    background: dodgerblue;
+    border: 2px solidColor;
+}
+
+.panel{
+    @extend .panels;
+    @include border-radius(2px);
+    font-size: 20px;
+    padding: 3px;
+    
+}
+.little-panel{
+    @extend .panels;
+    @include border-radius(20px);
+    font-size: 10px;
+    padding: 5px;
+    
+}
+
+.big-panel{
+    @extend .panels;
+    @include border-radius(30px);
+    font-size: 50px;
+    padding: 25px;
+    border-color: #63ce20;
+    
+}
